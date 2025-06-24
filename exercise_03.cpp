@@ -28,7 +28,6 @@ int main() {
         n--;
     }
 
-
     cout << sum << endl;
 
     return 0;
