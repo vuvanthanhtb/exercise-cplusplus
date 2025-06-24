@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// LIỆT KÊ SỐ KHÁC NHAU
 #include <iostream>
 
 using namespace std;

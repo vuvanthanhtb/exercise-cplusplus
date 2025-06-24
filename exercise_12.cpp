@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// BIẾN ĐỔI NHỊ PHÂN
 #include <iostream>
 
 using namespace std;

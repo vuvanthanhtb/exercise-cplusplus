@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// BIÊN CỦA MA TRẬN
 #include <iostream>
 
 using namespace std;

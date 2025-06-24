@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// CẤU TRÚC THÍ SINH
 #include <iostream>
 
 using namespace std;

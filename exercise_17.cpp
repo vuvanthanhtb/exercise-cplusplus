@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// ĐẦU CUỐI GIỐNG NHAU
 #include <iostream>
 
 using namespace std;

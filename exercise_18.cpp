@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// LOẠI BỎ NGUYÊN ÂM
 #include <iostream>
 
 using namespace std;

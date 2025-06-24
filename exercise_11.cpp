@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// QUAY VÒNG DÃY SỐ 1
 #include <iostream>
 
 using namespace std;
