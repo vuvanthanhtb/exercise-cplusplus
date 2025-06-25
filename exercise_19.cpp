@@ -1,7 +1,7 @@
 // SẮP XẾP CHỮ SỐ
 #include <iostream>
 
-#define MAX 10000
+#define MAX 1000000
 
 using namespace std;
 
