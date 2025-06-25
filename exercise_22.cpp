@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// KHAI BÁO LỚP PHÂN SỐ
 #include <iostream>
 
 using namespace std;
