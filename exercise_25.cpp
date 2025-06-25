@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// QUAY MA TRẬN
 #include <iostream>
 
 using namespace std;
