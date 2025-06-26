@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// BẢNG ĐIỂM THÀNH PHẦN - 1
 #include <iostream>
 
 using namespace std;

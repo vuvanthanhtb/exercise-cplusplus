@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// TRẺ NHẤT – GIÀ NHẤT
 #include <iostream>
 
 using namespace std;

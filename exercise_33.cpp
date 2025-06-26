@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// SẮP XẾP XEN KẼ - 2
 #include <iostream>
 
 using namespace std;

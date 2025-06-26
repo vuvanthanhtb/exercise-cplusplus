@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// SẮP XẾP SINH VIÊN THEO LỚP
 #include <iostream>
 
 using namespace std;

@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// HỢP VÀ GIAO CỦA HAI DÃY SỐ -1
 #include <iostream>
 
 using namespace std;

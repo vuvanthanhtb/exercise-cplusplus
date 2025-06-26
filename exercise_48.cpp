@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// SỐ KHÁC NHAU TRONG FILE
 #include <iostream>
 
 using namespace std;

@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// DANH SÁCH SINH VIÊN - 3
 #include <iostream>
 
 using namespace std;

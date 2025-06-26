@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// LOẠI BỎ 100
 #include <iostream>
 
 using namespace std;

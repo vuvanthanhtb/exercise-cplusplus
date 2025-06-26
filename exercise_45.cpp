@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// TÌM KIẾM GIẢNG VIÊN
 #include <iostream>
 
 using namespace std;

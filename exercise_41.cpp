@@ -1,4 +1,4 @@
-// SỐ MAY MẮN
+// DANH SÁCH ĐỐI TƯỢNG NHÂN VIÊN
 #include <iostream>
 
 using namespace std;
