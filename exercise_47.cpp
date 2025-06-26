@@ -4,15 +4,16 @@
 
 using namespace std;
 
-string recursiveSplit(string s) {
+string recursiveSplit(string s, string sub) {
   if (s.length() < 3) {
     return s;
   }
   string newStr = "";
   int check = 0;
   bool isSubstr = false;
+  int subLength = sub.length();
   for (int i = 0; i < s.length(); i++) {
-    if (s.substr(i, 3) == "100") {
+    if (s.substr(i, subLength) == sub) {
       check = 1;
       isSubstr = true;
       continue;
@@ -33,7 +34,7 @@ string recursiveSplit(string s) {
     return s;
   }
 
-  return recursiveSplit(newStr);
+  return recursiveSplit(newStr, sub);
 }
 
 int main() {
@@ -46,7 +47,7 @@ int main() {
   while (n--) {
     string s;
     getline(cin, s);
-    string remaining = recursiveSplit(s);
+    string remaining = recursiveSplit(s, sub);
     int result = s.length() - remaining.length();
     cout << result << endl;
   }
