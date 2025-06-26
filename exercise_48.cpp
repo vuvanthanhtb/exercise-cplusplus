@@ -6,7 +6,7 @@
 
 using namespace std;
 
-vector<int> convertStrToArr(string str) {
+vector<int> convert_str_to_arr(string str) {
   int len = str.length();
   vector<int> result;
   int t = 0;
@@ -74,7 +74,7 @@ int main() {
     cout << "unable to open file DATA.in";
   }
 
-  vector<int> dataFileArr = convertStrToArr(s);
+  vector<int> dataFileArr = convert_str_to_arr(s);
   int size = dataFileArr.size();
   for (int i = 0; i < size - 1; i++) {
     for (int j = i + 1; j < size; j++) {
