@@ -1,19 +1,8 @@
 // TÁCH CHỮ SỐ
 #include <iostream>
 #include <string>
-#include <cctype>
 
 using namespace std;
-
-int extract_number(const string& str) {
-    string digits = "";
-    for(char ch : str) {
-        if(isdigit(ch)) {
-            digits += ch;
-        }
-    }
-    return digits.empty() ? 0 : stoi(digits);
-}
 
 int main() {
     int t;
