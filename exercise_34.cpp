@@ -5,6 +5,27 @@
 
 using namespace std;
 
+string standardize_date(string s) {
+    string output = "";
+    int idx = 0;
+    int count = 0;
+    for(int i = 0; i < s.length(); i++) {
+        if(s[i] == '/') {
+            string sub = s.substr(idx, i - idx);
+            idx = i + 1;
+            output += (sub.length() != 2 ? string("0" + sub) : sub) + "/";
+            count++;
+        }
+
+        if(count == 2) {
+            output += s.substr(idx);
+            break;
+        }
+    }
+
+    return output;
+}
+
 struct Student {
     string student_code;
     string full_name;
@@ -14,7 +35,7 @@ struct Student {
 
     void display() {
         cout << fixed << setprecision(2);
-        string date = date_of_birth.size() != 10 ? string("0" + date_of_birth) : date_of_birth;
+        string date = standardize_date(date_of_birth);
         cout << student_code << " " << full_name << " " << student_class << " " << date << " " << gpa << endl;
     }
 };
