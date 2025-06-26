@@ -52,7 +52,7 @@ int main() {
 
   for (int i = 0; i < n - 1; i++) {
     for (int j = i + 1; j < n; j++) {
-      if (compareCode(students[i].student_code, students[j].student_code)) {
+      if (students[i].student_code > students[j].student_code) {
         Student temp = students[i];
         students[i] = students[j];
         students[j] = temp;
@@ -60,8 +60,8 @@ int main() {
     }
   }
 
-  for (int i = 1; i <= n; i++) {
-    students[i].display(i);
+  for (int i = 0; i < n; i++) {
+    students[i].display(i + 1);
   }
 
   return 0;
